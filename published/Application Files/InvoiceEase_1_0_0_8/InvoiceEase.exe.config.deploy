@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="InvoiceEase.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <connectionStrings>
+        <add name="InvoiceEase.Properties.Settings.POSConnectionString"
+            connectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\POS.mdf;Integrated Security=True;Connect Timeout=30;Encrypt=True"
+            providerName="System.Data.SqlClient" />
+    </connectionStrings>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.8"/>
+    </startup>
+    <userSettings>
+        <InvoiceEase.Properties.Settings>
+            <setting name="Path" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="printer" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="BillNo" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="NonBilled" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="CustomerLisMode" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="InvoiceMode" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="MostSellItemsMode" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="UserShopName" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="UserPhone" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="UserName" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="UserAddress" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="height" serializeAs="String">
+                <value>790</value>
+            </setting>
+            <setting name="width" serializeAs="String">
+                <value>560</value>
+            </setting>
+            <setting name="PrintFileName" serializeAs="String">
+                <value />
+            </setting>
+        </InvoiceEase.Properties.Settings>
+    </userSettings>
+</configuration>
